@@ -1,0 +1,72 @@
+@import 'engine.sass'
+
+$black: fade-out(#000, 0.05)
+$white: fade-out(#fff, 0.05)
+$grey: #9e9e9e      // Grey 500
+$darkGrey: #616161  // Grey 700
+$lightGrey: #eee    // Grey 200
+$blue: #2196f3      // Blue 500
+$lightBlue: #03a9f4 // Light blue 500
+
+*
+  +font-family(Roboto)
+
+  +box-sizing(border-box)
+
+html, body
+  +normalize()
+
+html
+  background-color: $lightGrey
+
+#box
+  width: 600px
+  max-width: 95%
+
+  margin: 10% auto 0 auto
+
+  background-color: $white
+  box-shadow: 0 2px 5px 0 fade-out($black, 0.26)
+
+  color: $darkGrey
+
+  h1
+    +normalize()
+
+    padding: 20px
+
+    color: $lightBlue
+    font-size: 35px
+    font-weight: 300
+    text-align: center
+
+  #buttons
+    display: block
+
+    padding: 5px
+
+    border-top: 1px solid $lightGrey
+
+    text-align: center
+
+    a
+      display: inline-block
+      width: auto
+
+      padding: 6px 8px
+
+      background: transparent
+      border: 0
+      border-top: 1px solid transparent
+
+      color: $blue
+      font-size: 15px
+      text-transform: uppercase
+      text-decoration: none
+
+      cursor: default
+
+      &:hover
+        border-color: $lightGrey
+
+        box-shadow: 0 2px 2px fade-out($grey, 0.5)

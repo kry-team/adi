@@ -1,0 +1,29 @@
+﻿[
+
+{
+ "question": "Le matériau doit-il être résistant ?",
+    "answers": {
+  "true": ["wood", "pvc", "plastic"],
+   "false": []
+          }
+  },
+
+{
+ "question": "Le matériau peut-il coûter cher ?",
+       "answers": {
+  "true": [],
+         "false": []
+    }
+  },
+
+{
+ "question": "Le matériau peut-il rouiller ?",
+          "answers": {
+  "true": [],
+         "false": []
+    }
+  },
+{ "question": "Le matériau doit-il être léger ?",        "answers": {  "true": ["steel"],         "false": []    }  },
+{ "question": "Le matériau doit-il être recyclable ?",   "answers": {  "true": ["pvc", "plastic"],         "false": [] } },
+{ "question": "Le matériau doit-il être facile à usiner ?", "answers": { "true": ["steel"], "false": [] } }
+]

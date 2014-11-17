@@ -1,0 +1,42 @@
+[
+  {
+    "id": "iron",
+    "name": "Fer",
+    "phrase": "le fer"
+  },
+  {
+    "id": "aluminum",
+    "name": "Aluminium",
+    "phrase": "l'aluminium"
+  },
+  {
+    "id": "steel",
+    "name": "Acier",
+    "phrase": "l'acier"
+  },
+
+  {
+    "id": "copper",
+    "name": "Cuivre",
+    "phrase": "le cuivre"
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "phrase": "le zinc"
+  },
+  {
+    "id": "wood",
+    "name": "Bois",
+    "phrase": "le bois"
+  },
+  { "id": "pvc",
+    "name": "PVC",
+    "phrase": "le PVC"
+  },
+  {
+    "id": "plastic",
+    "name": "Plastique",
+    "phrase": "le plastique"
+  }
+]
