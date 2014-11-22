@@ -5,38 +5,28 @@
     "phrase": "le fer"
   },
   {
-    "id": "aluminum",
-    "name": "Aluminium",
-    "phrase": "l'aluminium"
-  },
-  {
     "id": "steel",
     "name": "Acier",
     "phrase": "l'acier"
-  },
-
-  {
-    "id": "copper",
-    "name": "Cuivre",
-    "phrase": "le cuivre"
-  },
-  {
-    "id": "zinc",
-    "name": "Zinc",
-    "phrase": "le zinc"
   },
   {
     "id": "wood",
     "name": "Bois",
     "phrase": "le bois"
   },
-  { "id": "pvc",
-    "name": "PVC",
-    "phrase": "le PVC"
+  {
+    "id": "concrete",
+    "name": "Béton",
+    "phrase": "le béton"
+  },
+  {
+    "id": "plaster",
+    "name": "Plâtre",
+    "phrase": "le plâtre"
   },
   {
     "id": "plastic",
-    "name": "Plastique",
-    "phrase": "le plastique"
+    "name": "Matière thermoplastique",
+    "phrase": "les matières thermoplastiques (PVC)"
   }
 ]

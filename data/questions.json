@@ -1,8 +1,8 @@
 ﻿[
   {
-    "question": "Le matériau doit-il être résistant ?",
+    "question": "Le matériau doit-il être résistant (aux efforts) ?",
     "answers": {
-      "true": ["wood", "pvc", "plastic"],
+      "true": ["wood", "plaster", "plastic"],
       "false": []
     }
   },
@@ -20,7 +20,39 @@
       "false": ["iron"]
     }
   },
-  { "question": "Le matériau doit-il être léger ?",           "answers": { "true": ["steel"],                  "false": [] } },
-  { "question": "Le matériau doit-il être recyclable ?",      "answers": { "true": ["pvc", "plastic"],         "false": [] } },
-  { "question": "Le matériau doit-il être facile à usiner ?", "answers": { "true": ["steel"],                  "false": [] } }
+  {
+    "question": "Le matériau doit-il être recyclable ?",
+    "answers": {
+      "true": ["concrete", "plastic"],
+      "false": []
+    }
+  },
+  {
+    "question": "Le matériau doit-il être léger ?",
+    "answers": {
+      "true": ["concrete", "steel", "iron"],
+      "false": []
+    }
+  },
+  {
+    "question": "Le matériau doit-il être facile à usiner ?",
+    "answers": {
+      "true": ["concrete"],
+      "false": []
+    }
+  },
+  {
+    "question": "Le matériau doit-il être facile à plier ?",
+    "answers": {
+      "true": ["concrete", "wood", "plaster"],
+      "false": []
+    }
+  },
+  {
+    "question": "Le matériau doit-il être facile à mouler ?",
+    "answers": {
+      "true": ["steel", "wood"],
+      "false": []
+    }
+  }
 ]
