@@ -79,6 +79,8 @@ $(function () {
           result += 'Aucune matériau correspondant n\'a été trouvé';
         } else if (nMaterials === 1) {
           result += 'Le seul matériau correspondant est <b>' + materials[0].phrase + '</b>';
+        } else if (nMaterials > sMaterials.length - 2) {
+          result = 'Il y a trop de matériaux correspondants. Veuillez affiner votre recherche';
         } else {
           result += 'Les matériaux correspondants sont ';
 
@@ -99,7 +101,7 @@ $(function () {
           .fadeOut(0)
           .html(result)
           .fadeIn(300);
-        
+
         $('#buttons').empty();
         $('#buttons').append('<a href="#rerun">Recommencer</a>');
 
