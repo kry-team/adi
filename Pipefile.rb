@@ -11,10 +11,14 @@ pipeline 'styles', 'www' do
       match '*.css'
     end
   end
+
+  yui_css
 end
 
 pipeline 'scripts', 'www' do
   match '*.js'
+
+  yui_js
 end
 
 pipeline 'assets', 'www' do
