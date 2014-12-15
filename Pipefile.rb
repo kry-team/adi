@@ -16,3 +16,7 @@ end
 pipeline 'scripts', 'www' do
   match '*.js'
 end
+
+pipeline 'assets', 'www' do
+  match '*.png'
+end
